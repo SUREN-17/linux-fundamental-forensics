@@ -24,11 +24,11 @@
    📸 Example:  
    ![cp](./screenshots/cp.png)
 
-5. `cd foldername`
+5. `cd foldername/`  
    **Change the current working directory**  
-   📂 Forensics: Navigate quickly through file systems and evidence folders to inspect their contents. 
+   📂 Forensics: Navigate quickly through file systems and evidence folders to inspect their contents.
    📸 Example:  
-   ![mv](./screenshots/cd.png)
+   ![cd](./screenshots/cd.png)
 
 6. `mkdir myfolder`  
    **Create a new directory**  
