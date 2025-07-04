@@ -24,11 +24,11 @@
    📸 Example:  
    ![cp](./screenshots/cp.png)
 
-5. `mv oldname.txt newname.txt`  
-   **Move or rename files**  
-   📂 Forensics: Organize or preserve files with meaningful names.  
+5. `cd foldername`
+   **Change the current working directory**  
+   📂 Forensics: Navigate quickly through file systems and evidence folders to inspect their contents. 
    📸 Example:  
-   ![mv](./screenshots/mv.png)
+   ![mv](./screenshots/cd.png)
 
 6. `mkdir myfolder`  
    **Create a new directory**  
