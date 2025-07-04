@@ -26,7 +26,8 @@
 
 5. `cd foldername/`  
    **Change the current working directory**  
-   📂 Forensics: Navigate quickly through file systems and evidence folders to inspect their contents.
+   📂 Forensics: Navigate quickly through file systems and evidence folders to inspect their contents.  
+
    📸 Example:  
    ![cd](./screenshots/cd.png)
 
