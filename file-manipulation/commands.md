@@ -67,5 +67,5 @@
    **Display directory structure in a tree-like format**  
    📂 Forensics: Quickly visualize nested folders or hidden directories.  
    
-   📸 Example:  
-   ![tree](./screenshots/tree.png)
+   	📸 Example:  
+   	![tree](./screenshots/tree.png)
