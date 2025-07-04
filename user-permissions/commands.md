@@ -69,5 +69,5 @@
    **Terminal multiplexer for persistent sessions**  
    🔐 Forensics: Used by attackers for stealthy, hidden shells that survive disconnection.  
    
-   📸 Example:  
-   ![tmux](./screenshots/tmux.png)
+   	📸 Example:  
+   	![tmux](./screenshots/tmux.png)

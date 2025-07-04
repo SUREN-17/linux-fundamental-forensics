@@ -69,5 +69,5 @@
    **Transfer data from/to a server using HTTP/HTTPS**  
    📡 Forensics: Interact with web APIs, simulate browser requests, or verify C2 communication. 
     
-   📸 Example:  
-   ![curl](./screenshots/curl.png)
+   	📸 Example:  
+   	![curl](./screenshots/curl.png)
