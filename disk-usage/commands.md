@@ -1,54 +1,72 @@
-# 💾 Disk Usage & System Monitoring
-
-📁 This section focuses on monitoring system performance, disk usage, and identifying anomalies during forensic investigations.
+## 💾 Disk Usage & System Monitoring
 
 1. `df -h`  
    **Disk space usage (human readable)**  
-   🧠 Forensics: Spot full partitions that may be manipulated or filled to cause denial of service.  
-   📸 Example: ![df](./screenshots/df.png)
+   🧠 Forensics: Spot full partitions.  
+
+   📸 **Example:**  
+   ![example](./screenshots/df.png)
 
 2. `du -sh *`  
    **Folder-wise disk usage summary**  
-   🧠 Forensics: Identify large folders that may contain hidden payloads or data dumps.  
-   📸 Example: ![du](./screenshots/du.png)
+   🧠 Forensics: Identify large folders.  
+
+   📸 **Example:**  
+   ![example](./screenshots/du.png)
 
 3. `htop`  
    **Interactive process viewer**  
-   🧠 Forensics: Detect suspicious running processes or resource hogs.  
-   📸 Example: ![htop](./screenshots/htop.png)
+   🧠 Forensics: Identify rogue processes.  
+
+   📸 **Example:**  
+   ![example](./screenshots/htop.png)
 
 4. `btop`  
-   **Modern terminal resource monitor**  
-   🧠 Forensics: Graphically observe CPU, RAM, and disk behavior in real-time.  
-   📸 Example: ![btop](./screenshots/btop.png)
+   **Modern resource monitor**  
+   🧠 Forensics: View beautiful system stats.  
+
+   📸 **Example:**  
+   ![example](./screenshots/btop.png)
 
 5. `vmstat`  
-   **Report virtual memory statistics**  
-   🧠 Forensics: Monitor memory, process, and CPU usage to detect spikes or abnormal behavior.  
-   📸 Example: ![vmstat](./screenshots/vmstat.png)
+   **System memory and performance stats**  
+   🧠 Forensics: Spot heavy usage or memory leaks.  
+
+   📸 **Example:**  
+   ![example](./screenshots/vmstat.png)
 
 6. `mpstat`  
    **CPU usage statistics**  
-   🧠 Forensics: Detect if any specific core is overloaded (indicating malware or miners).  
-   📸 Example: ![mpstat](./screenshots/mpstat.png)
+   🧠 Forensics: Investigate abnormal CPU loads.  
+
+   📸 **Example:**  
+   ![example](./screenshots/mpstat.png)
 
 7. `lsusb`  
    **List connected USB devices**  
-   🧠 Forensics: Check for unauthorized USB device usage that might indicate data exfiltration.  
-   📸 Example: ![lsusb](./screenshots/lsusb.png)
+   🧠 Forensics: Check if a USB was used.  
+
+   📸 **Example:**  
+   ![example](./screenshots/lsusb.png)
 
 8. `iostat`  
    **CPU and I/O device statistics**  
    🧠 Forensics: Find processes doing heavy disk read/write operations (e.g., data theft or logging).  
-   📸 Example: ![iostat](./screenshots/iostat.png)
+
+   📸 **Example:**  
+   ![example](./screenshots/iostat.png)
 
 9. `uptime`  
    **Show system uptime and load average**  
    🧠 Forensics: Determine system stability or recent reboots that may have wiped logs.  
-   📸 Example: ![uptime](./screenshots/uptime.png)
+
+   📸 **Example:**  
+   ![example](./screenshots/uptime.png)
 
 10. `apt install toolname`  
    **Install forensic/monitoring tools on Debian-based systems**  
    🧠 Forensics: Add tools like `sleuthkit`, `autopsy`, or `chkrootkit` for deeper investigations.  
-   📸 Example: ![apt](./screenshots/apt.png)
+
+   📸 **Example:**  
+   ![example](./screenshots/apt.png)
 
