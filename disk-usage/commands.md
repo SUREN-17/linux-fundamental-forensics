@@ -67,6 +67,6 @@
    **Install forensic/monitoring tools on Debian-based systems**  
    🧠 Forensics: Add tools like `sleuthkit`, `autopsy`, or `chkrootkit` for deeper investigations.  
 
-   📸 **Example:**  
-   ![example](./screenshots/apt.png)
+   	📸 **Example:**  
+   	![example](./screenshots/apt.png)
 
