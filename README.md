@@ -24,27 +24,24 @@ Commands were tested on Kali Linux, and relevant forensic use cases are provided
 
 ---
 
-🏆 Bonus Script – Bonus.sh
-A simple Bash script that gathers forensic indicators from the current Linux system.
+## 🏆 Bonus Script – [`Bonus.sh`](./Bonus.sh)
 
-🔍 What it collects:
+A Bash script that gathers key forensic indicators from the current Linux system — useful for quick triage or system auditing.
 
-Logged-in users
+### 🔍 What It Collects:
+- 👥 Logged-in users  
+- 🕓 Login history  
+- 🌐 Open network ports  
+- 💽 Disk usage summary  
+- 📁 Top 10 largest files  
+- 🧭 IP and routing info  
 
-Login history
+### 🛠️ How to Run:
 
-Open network ports
-
-Disk usage summary
-
-Largest files (which may contain logs or evidence)
-
-IP and routing information
-
-🛠️ Usage Instructions:
-
+```bash
 chmod +x Bonus.sh
 ./Bonus.sh
+```
 
+📌 *The script is located in the root directory of this project. It provides fast insight into system activity and potential artifacts during forensic analysis.*
 
-📁 This script is located in the root directory of this project. It acts as a quick-start forensic triage tool during incident response or system auditing.
